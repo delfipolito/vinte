@@ -1,36 +1,12 @@
 /*MEDIA SIZE*/
 
-@media (min-width: 1200px){
-  
-}
-@media (min-width: 350px) and (max-width: 767px) { /*Para iphone 6*/
-
-}
-@media (max-width: 350px) { /*Para iphone 5*/
-}
-
 @media (max-width: 600px) { /*Para monitores small*/
-  nav a {
-	  padding-right: 0px;
-	  padding-left: 0px;
-	  margin: 0;
-	}
-	.button-collapse {
-		margin: 0!important;
-	}
-	.job-row .col {
-    height: 38.3vw;
-	}
-	.phone-col {
-  	text-align: left;
-	}
-	.phone-line {
-    right: inherit;
-    left: 10px;
-	}
-	.show-on-med-only {
-		display: none!important;
-	}
+  nav a {padding-right: 0px;padding-left: 0px;margin: 0;}
+	.button-collapse {margin: 0!important;}
+	.job-row .col {height: 38.3vw;}
+	.phone-col {text-align: left;}
+	.phone-line {right: inherit;left: 10px;}
+	.show-on-med-only {display: none!important;}
 	.cards {height: 70%!important;}
 	#services h3 {font-size: 25px;}
 	.services-box p {font-size: 16px;}
@@ -38,27 +14,17 @@
 }
 
 @media (min-width: 601px) and (max-width: 992px) { /*Para monitores medium*/
-	.phone-col {
-  	text-align: left;
-	}
-	.phone-line {
-    right: inherit;
-    left: 10px;
-	}
-	.show-on-med-only {
-		display: block!important;
-	}
+	.phone-col {text-align: left;}
+	.phone-line {right: inherit;left: 10px;}
+	.show-on-med-only {display: block!important;}
 	.cards {height: 50%!important;}
+	.timeline-1 {top: 171.5px;width: 57%;right: -19%;}
 }
 @media (min-width: 993px) and (max-width: 1200px){ /*Para monitores large*/
-	.show-on-med-only {
-		display: none!important;
-	}
+	.show-on-med-only {display: none!important;}
 }
 @media (min-width: 1200px) { /*Para monitores extra large*/
-	.show-on-med-only {
-		display: none!important;
-	}
+	.show-on-med-only {display: none!important;}
 }
 
 
@@ -70,4 +36,13 @@
 }
 
 @media screen and (max-width: 991px) and (orientation:landscape){
+}
+
+@media (min-width: 1200px){
+  
+}
+@media (min-width: 350px) and (max-width: 767px) { /*Para iphone 6*/
+
+}
+@media (max-width: 350px) { /*Para iphone 5*/
 }

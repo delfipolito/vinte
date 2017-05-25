@@ -151,7 +151,7 @@ nav a {
 
 /*JOBS*/
 #jobs {
-  background-color: white;
+  background-color: #f6f6f6;
   height: 100%;
   min-height: 400px;
   position: relative;
@@ -330,4 +330,81 @@ nav a {
   font-size: 15px;
   color: black;
   margin-left: 10px;
+}
+
+/*PROGRESS*/
+#progress {
+  background-color: white;
+  height: auto;
+  min-height: 80vh;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#progress h2 {
+  font-family: 'PlayfairBold';
+  font-size: 26px;
+  color: black;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+#progress h3 {
+  font-family: 'SansLight';
+  font-size: 19px;
+  color: black;
+  text-align: center;
+}
+
+.progress-row {
+  padding: 80px 40px;
+  max-height: 1100px;
+  margin: auto;
+}
+
+.number {
+  font-family: 'PlayfairBold';
+  font-size: 26px;
+}
+.progress-text {
+  font-family: 'SansLight';
+  padding-right: 10px; 
+  font-size: 15.5px;
+}
+.progress-title {
+  font-family: 'SansSemibold';
+  padding-right: 10px; 
+  font-size: 15.5px;
+  text-transform: uppercase;
+}
+.img-box {
+  height: 70px;
+}
+.img-box img {
+  height: 57px;
+}
+#light {
+  height: 69px;
+  margin-top: -9px;
+}
+#discuss {
+  height: 60px;
+  margin-top: 3px;
+}
+.timeline {
+  width: 45px;
+  line-height: 3.3em;
+  font-size: 0.3125em;
+  display: block;
+  letter-spacing: 0.2em;
+  border-top: 1px solid #000;
+  vertical-align: top;
+  margin: auto;
+  position: absolute;
+  top: 122.5px;
+  width: 80%;
+  right: -40%;
 }
