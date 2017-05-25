@@ -1,0 +1,236 @@
+@font-face {
+ font-family: 'SansLight';
+ src: url('../fonts/Sans/SourceSansPro-Light.ttf') format('opentype');
+}
+@font-face {
+ font-family: 'SansSemibold';
+ src: url('../fonts/Sans/SourceSansPro-Semibold.ttf') format('opentype');
+}
+@font-face {
+ font-family: 'PlayfairBold';
+ src: url('../fonts/Playfair/PlayfairDisplay-Bold.ttf') format('opentype');
+}
+
+
+/*GENERAL*/
+
+html, body, section {
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+section{
+  position: relative;
+}
+.container {
+  width: 100%;
+}
+.relative {
+  position: relative;
+}
+.hidden {
+  display: none;
+}
+.only-mobile {
+  display: none;
+}
+.only-large {
+  display: inherit;
+}
+.no-padding {
+  padding: 0px!important;
+}
+.centered {
+  text-align: center;
+}
+.left-aligned {
+  text-align: left;
+}
+.right-aligned {
+  text-align: right;
+}
+.valign-wrapper {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100%!important;
+}
+.valign-wrapper .valign {
+  display: block;
+  text-align: center;
+}
+.no-margin {
+  margin: 0px;
+}
+.row {
+  width: 100%;
+}
+
+/*REPETITIVE*/
+.line {
+  width: 45px;
+  line-height: 3.3em;
+  font-size: 0.3125em;
+  display: block;
+  letter-spacing: 0.2em;
+  border-top: 1px solid #000;
+  vertical-align: top;
+  margin: auto;
+}
+
+/*NAVBAR*/
+nav {
+  height: 89px;
+  background-color: white;
+  color: black;
+  font-family: 'SansLight';
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+nav a {
+  color: black!important;
+  height: 100%;
+  line-height: 90px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.nav-wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/*HOME*/
+#home {
+  background-image: url('../images/home.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
+  height: 100%;
+  min-height: 600px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+#home h1 {
+  font-family: 'PlayfairBold';
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+#home p {
+  font-family: 'SansLight';
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+#home a {
+  font-family: 'SansLight';
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  text-transform: none;
+  background-color: white;
+  border-radius: 20px;
+  padding: 6px 30px
+}
+
+/*JOBS*/
+#jobs {
+  background-color: white;
+  height: 100%;
+  min-height: 400px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 70px;
+}
+#jobs h2 {
+  font-family: 'PlayfairBold';
+  font-size: 26px;
+  color: black;
+  text-align: center;
+  margin-bottom: 2px;
+}
+#jobs img {
+  width: 101%;
+  height: 100%;
+  overflow: hidden;
+}
+.job-row {
+  margin: 0px;
+  padding: 0px;
+}
+.job-row .col {
+  margin: 0px;
+  padding: 0px;
+  height: 23.3vw;
+}
+/*CONTACT*/
+#contact {
+  background-color: #f6f6f6;
+  height: 40%;
+  min-height: 400px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+#contact h2 {
+  font-family: 'PlayfairBold';
+  font-size: 26px;
+  color: black;
+  text-align: center;
+  margin-bottom: 2px;
+}
+#contact h1 {
+  font-family: 'SansLight';
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+#contact .tags {  
+  font-family: 'SansSemibold';
+  padding-right: 10px; 
+  font-size: 14.5px;
+}
+
+#contact .content {  
+  font-family: 'SansLight';
+  padding-right: 10px; 
+  font-size: 14.5px;
+}
+.contact-line {
+  width: 15px;
+  line-height: 3.3em;
+  font-size: 0.3125em;
+  display: block;
+  letter-spacing: 0.2em;
+  border-top: 1px solid #000;
+  vertical-align: top;
+}
+.phone-line {
+  position: absolute;
+  right: 293px
+}
+.phone-col {
+  text-align: right;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.email-col {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
