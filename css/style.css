@@ -46,10 +46,10 @@ section{
   text-align: center;
 }
 .left-aligned {
-  text-align: left;
+  text-align: left!important;
 }
 .right-aligned {
-  text-align: right;
+  text-align: right!important;
 }
 .valign-wrapper {
   display: -webkit-flex;
@@ -71,6 +71,9 @@ section{
 }
 .row {
   width: 100%;
+}
+.all-height {
+  height: 100%;
 }
 
 /*REPETITIVE*/
@@ -268,4 +271,63 @@ nav a {
 .email-col {
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+/*SERVICES*/
+#services {
+  background-color: #f6f6f6;
+  height: auto;
+  min-height: 80vh;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.services-row {
+  height: calc(80vh - 140px);
+}
+.services-box {
+  height: calc(100vh - 140px);
+  background-color: #c2c2d3;
+  padding-left: 50px!important;
+  padding-right: 50px!important;
+  text-align: right;
+}
+#services h3 {
+  font-family: 'PlayfairBold';
+  font-size: 45px;
+  color: white;
+  margin-bottom: 8px;
+}
+.services-box p {
+  font-family: 'SansLight';
+  font-size: 18px;
+  color: white;
+  margin-top: 10px;
+}
+.services-line {
+  width: 100px;
+  line-height: 3.3em;
+  font-size: 0.3125em;
+  display: block;
+  letter-spacing: 0.2em;
+  border-top: 2px solid white;
+  vertical-align: top;
+}
+.services-icon {
+  width: 60px;
+  margin: 0 13px;
+}
+.services-title {
+  font-family: 'SansSemibold';
+  font-size: 15px;
+  color: black;
+  margin-left: 10px;
+}
+.services-text {
+  font-family: 'SansLight';
+  font-size: 15px;
+  color: black;
+  margin-left: 10px;
 }
