@@ -179,7 +179,7 @@ nav a {
 }
 .cards {
   position: absolute;
-  bottom: -30%;
+  bottom: -70%;
   width: 100%;
   height: 30%!important;
   background-color: rgba(255, 255, 255, 0.8);
@@ -187,6 +187,7 @@ nav a {
   margin: 0;
   padding-left: 10%;
   padding-right: 10%;
+  overflow: hidden;
 }
 
 .text-box {
