@@ -273,6 +273,7 @@ nav ul a:hover {
   font-family: 'SansLight';
   padding-right: 10px; 
   font-size: 14.5px;
+  color: black;
 }
 .contact-line {
   width: 15px;
