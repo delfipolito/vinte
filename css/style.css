@@ -443,3 +443,13 @@ nav ul a:hover {
   width: 80%;
   right: -40%;
 }
+
+
+
+/*ANIMATIONS*/
+.services1 {
+  display: none;
+}
+.progress1 {
+  display: none;
+}

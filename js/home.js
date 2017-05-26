@@ -63,4 +63,20 @@ $( document ).ready(function(){
   $("#box9").mouseleave( function() {
     $('#card9').animate({ bottom: "-70%"}, 500 );
   });
+
+
+
+  $(window).scroll(function() {
+    var services = $('.services-scroll').offset().top;
+
+    if ($(window).scrollTop() >= (services - 200)){
+      $('.services1').addClass('animated slideInRight');
+      $('.services1').removeClass('services1');
+    } 
+    var progress = $('.progress-scroll').offset().top;
+    if ($(window).scrollTop() >= (progress - 200)){
+      $('.progress1').addClass('animated slideInLeft');
+      $('.progress1').removeClass('progress1');
+    } 
+  });
 })
