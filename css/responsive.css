@@ -19,6 +19,8 @@
 	#services {display: inherit;}
 	nav ul a:hover {line-height: 48px!important;}
 	.mobile-container {padding: 0 38px!important;}
+	nav {height: 69px;}
+	nav .button-collapse {margin: -6px!important;}
 }
 
 @media (min-width: 601px) and (max-width: 992px) { /*Para monitores medium*/
@@ -28,6 +30,9 @@
 	.cards {height: 50%!important;}
 	.timeline-1 {top: 171.5px;width: 57%;right: -19%;}
 	#services {display: inherit;}
+	nav {height: 69px;}
+	nav .button-collapse {margin: -6px!important;line-height: 82px!important;}
+	.brand-logo {top: -8px!important;}
 }
 @media (min-width: 993px) and (max-width: 1200px){ /*Para monitores large*/
 	.show-on-med-only {display: none!important;}
