@@ -148,6 +148,7 @@ nav ul a:hover {
   text-align: center;
   margin-bottom: 25px;
   line-height: 60px;
+  overflow: hidden;
 }
 #home p {
   font-family: 'SansLight';

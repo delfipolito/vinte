@@ -1,6 +1,7 @@
 /*MEDIA SIZE*/
 
 @media (max-width: 600px) { /*Para monitores small*/
+	.no-bottom-margin-mobile {margin-bottom: 0px!important}
   nav a {padding-right: 0px;padding-left: 0px;margin: 0;}
 	.button-collapse {margin: 2px 0!important;}
 	.job-row .col {height: 50vw;}
@@ -11,12 +12,13 @@
 	#services h3 {font-size: 25px;}
 	.services-box p {font-size: 16px;}
 	.valign-wrapper {height: auto!important;}
-	.progress-row {padding-top: 30px; }
+	.progress-row {padding-top: 0px; }
 	.progress-row .col {margin-top: 42px; }
 	.progress-text {margin-top: 0px;}
 	.progress-title {margin-bottom: 0px;}
 	#services {display: inherit;}
 	nav ul a:hover {line-height: 48px!important;}
+	.mobile-container {padding: 0 38px!important;}
 }
 
 @media (min-width: 601px) and (max-width: 992px) { /*Para monitores medium*/
@@ -25,6 +27,7 @@
 	.show-on-med-only {display: block!important;}
 	.cards {height: 50%!important;}
 	.timeline-1 {top: 171.5px;width: 57%;right: -19%;}
+	#services {display: inherit;}
 }
 @media (min-width: 993px) and (max-width: 1200px){ /*Para monitores large*/
 	.show-on-med-only {display: none!important;}
