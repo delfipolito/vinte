@@ -91,8 +91,22 @@ section{
   vertical-align: top;
   margin: auto;
 }
+.white-line {
+  width: 45px;
+  line-height: 3.3em;
+  font-size: 0.3125em;
+  display: block;
+  letter-spacing: 0.2em;
+  border-top: 1px solid white;
+  vertical-align: top;
+  margin: auto;
+}
 .container .row {
   margin: 0;
+}
+.white {
+  color: white!important;
+  background: transparent!important;
 }
 /*NAVBAR*/
 nav {
@@ -144,7 +158,7 @@ nav ul a:hover {
   text-align: center;
 }
 
-#home pre {
+#home h2 {
   font-family: 'PlayfairBold';
   font-size: 50px;
   color: white;
@@ -152,6 +166,9 @@ nav ul a:hover {
   margin-bottom: 25px;
   line-height: 60px;
   overflow: hidden;
+  max-width: 599px;
+  margin-left: auto;
+  margin-right: auto;
 }
 #home p {
   font-family: 'SansLight';
@@ -305,8 +322,8 @@ nav ul a:hover {
 /*SERVICES*/
 #services {
   background-color: #f6f6f6;
-  height: auto;
-  min-height: 100vh;
+  height: 100vh!important;
+  min-height: 540px;
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -314,11 +331,13 @@ nav ul a:hover {
   padding-bottom: 70px;
 }
 .services-row {
-  height: calc(80vh - 140px);
+  height: auto!important;
   max-height: 445px;
+  margin: 0px!important;
 }
 .services-box {
   height: calc(100vh - 140px);
+  min-height: 353px!important;
   background-color: #c2c2d3;
   padding-left: 50px!important;
   padding-right: 50px!important;
@@ -342,6 +361,14 @@ nav ul a:hover {
   font-size: 18px;
   color: white;
   margin-top: 10px;
+  max-width: 387px;
+  text-align: justify;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  -o-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
 }
 .services-line {
   width: 100px;

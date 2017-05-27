@@ -1,6 +1,7 @@
 /*MEDIA SIZE*/
 
 @media (max-width: 600px) { /*Para monitores small*/
+	.valign-wrapper {height: auto!important;}
 	.no-bottom-margin-mobile {margin-bottom: 0px!important}
   nav a {padding-right: 0px;padding-left: 0px;margin: 0;}
 	.button-collapse {margin: 2px 0!important;}
@@ -8,19 +9,21 @@
 	.phone-col {text-align: left;}
 	.phone-line {right: inherit;left: 10px;}
 	.show-on-med-only {display: none!important;}
-	.cards {height: 70%!important;}
+	.cards {height: 60%!important;}
 	#services h3 {font-size: 25px;}
 	.services-box p {font-size: 16px;}
-	.valign-wrapper {height: auto!important;}
 	.progress-row {padding-top: 0px; }
 	.progress-row .col {margin-top: 42px; }
 	.progress-text {margin-top: 0px;}
 	.progress-title {margin-bottom: 0px;}
-	#services {display: inherit;}
+	#services {display: inherit;padding-top:0px;height: auto!important}
 	nav ul a:hover {line-height: 48px!important;}
 	.mobile-container {padding: 0 38px!important;}
 	nav {height: 69px;}
 	nav .button-collapse {margin: -6px!important;}
+	.services-box {background-color: #d2a7cb;}
+	.happy-img {margin-left: -9px;}
+	#home h2 {font-size: 39px;}
 }
 
 @media (min-width: 601px) and (max-width: 992px) { /*Para monitores medium*/
@@ -29,10 +32,15 @@
 	.show-on-med-only {display: block!important;}
 	.cards {height: 50%!important;}
 	.timeline-1 {top: 171.5px;width: 57%;right: -19%;}
-	#services {display: inherit;}
+	#services {display: inherit;padding-top:0px;padding-bottom: 30px;}
 	nav {height: 69px;}
 	nav .button-collapse {margin: -6px!important;line-height: 82px!important;}
 	.brand-logo {top: -8px!important;}
+	.services-box {background-color: #d2a7cb;margin-bottom: 30px;}
+	#services h3 {margin: auto;max-width: 80%;}
+	.services-box p {margin: auto;margin-top: 10px;max-width: 80%;}
+	.services-line {margin-left: 10%;margin-top: 3px;}
+	#services {height: auto!important;}
 }
 @media (min-width: 993px) and (max-width: 1200px){ /*Para monitores large*/
 	.show-on-med-only {display: none!important;}
