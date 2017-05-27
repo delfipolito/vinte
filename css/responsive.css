@@ -21,9 +21,10 @@
 	.mobile-container {padding: 0 38px!important;}
 	nav {height: 69px;}
 	nav .button-collapse {margin: -6px!important;}
-	.services-box {background-color: #d2a7cb;}
+	.services-box {background-color: #d2a7cb;margin-bottom: 30px;}
 	.happy-img {margin-left: -9px;}
 	#home h2 {font-size: 39px;}
+	#progress {padding-bottom: 0px;}
 }
 
 @media (min-width: 601px) and (max-width: 992px) { /*Para monitores medium*/
@@ -67,4 +68,8 @@
 
 }
 @media (max-width: 350px) { /*Para iphone 5*/
+	#home h2 {font-size: 31px;margin-top: -110px;}
+	.phone-col{padding: 0px!important;margin-left: -2%!important;width: 95vw!important;}
+	.phone-line {left: 2px;}
+	.email-col{margin-left: -5%!important;}
 }
