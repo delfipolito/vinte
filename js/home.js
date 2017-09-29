@@ -71,7 +71,15 @@ $( document ).ready(function(){
 
     if ($(window).scrollTop() >= (services - 200)){
       $('.services1').addClass('animated slideInRight');
-      $('.services1').removeClass('services1');
+      $('.services1').removeClass('hidden');
+      setTimeout(function () {
+        $('.services2').addClass('animated slideInRight');
+        $('.services2').removeClass('hidden');
+      }, 500);
+      setTimeout(function () {
+        $('.services3').addClass('animated slideInRight');
+        $('.services3').removeClass('hidden');
+      }, 1000);
     } 
     var progress = $('.progress-scroll').offset().top;
     if ($(window).scrollTop() >= (progress - 200)){

@@ -35,7 +35,7 @@ section{
   position: relative;
 }
 .hidden {
-  display: none;
+  display: none!important;
 }
 .only-mobile {
   display: none;
@@ -478,9 +478,7 @@ nav ul a:hover {
 
 
 /*ANIMATIONS*/
-.services1 {
-  display: none;
-}
+
 .progress1 {
   display: none;
 }
