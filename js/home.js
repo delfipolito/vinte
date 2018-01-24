@@ -64,6 +64,35 @@ $( document ).ready(function(){
     $('#card9').animate({ bottom: "-70%"}, 500 );
   });
 
+  $("#box10").mouseenter( function() {
+    $('#card10').animate({ bottom: "0"}, 500 );
+  });
+  $("#box10").mouseleave( function() {
+    $('#card10').animate({ bottom: "-70%"}, 500 );
+  });
+
+  $("#box11").mouseenter( function() {
+    $('#card11').animate({ bottom: "0"}, 500 );
+  });
+  $("#box11").mouseleave( function() {
+    $('#card11').animate({ bottom: "-70%"}, 500 );
+  });
+
+  $("#box12").mouseenter( function() {
+    $('#card12').animate({ bottom: "0"}, 500 );
+  });
+  $("#box12").mouseleave( function() {
+    $('#card12').animate({ bottom: "-70%"}, 500 );
+  });
+
+  $("#box13").mouseenter( function() {
+    $('#card13').animate({ bottom: "0"}, 500 );
+  });
+  $("#box13").mouseleave( function() {
+    $('#card13').animate({ bottom: "-70%"}, 500 );
+  });
+
+
 
 
   $(window).scroll(function() {
