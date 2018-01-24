@@ -92,6 +92,13 @@ $( document ).ready(function(){
     $('#card13').animate({ bottom: "-70%"}, 500 );
   });
 
+  $("#box14").mouseenter( function() {
+    $('#card14').animate({ bottom: "0"}, 500 );
+  });
+  $("#box14").mouseleave( function() {
+    $('#card14').animate({ bottom: "-70%"}, 500 );
+  });
+
 
 
 
