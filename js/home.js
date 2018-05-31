@@ -99,6 +99,34 @@ $( document ).ready(function(){
     $('#card14').animate({ bottom: "-70%"}, 500 );
   });
 
+  $("#box15").mouseenter( function() {
+    $('#card15').animate({ bottom: "0"}, 500 );
+  });
+  $("#box15").mouseleave( function() {
+    $('#card15').animate({ bottom: "-70%"}, 500 );
+  });
+
+  $("#box16").mouseenter( function() {
+    $('#card16').animate({ bottom: "0"}, 500 );
+  });
+  $("#box16").mouseleave( function() {
+    $('#card16').animate({ bottom: "-70%"}, 500 );
+  });
+
+  $("#box17").mouseenter( function() {
+    $('#card17').animate({ bottom: "0"}, 500 );
+  });
+  $("#box17").mouseleave( function() {
+    $('#card17').animate({ bottom: "-70%"}, 500 );
+  });
+
+  $("#box18").mouseenter( function() {
+    $('#card18').animate({ bottom: "0"}, 500 );
+  });
+  $("#box18").mouseleave( function() {
+    $('#card18').animate({ bottom: "-70%"}, 500 );
+  });
+
 
 
 
