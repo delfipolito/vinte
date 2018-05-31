@@ -131,10 +131,8 @@ nav a {
 }
 
 nav ul a:hover {
-  color: black;
-  background-color: white!important;
-  font-family: 'SansRegular';
-  line-height: 85px;
+  color: #7d93f4!important;
+  background-color: transparent!important;
 }
 .fa-bars {
   font-size: 26px!important;
