@@ -4,7 +4,7 @@ https://keybase.io/delfipolito
 
 I hereby claim:
 
-  * I am an admin of http://vinte.studio
+  * I am an admin of http://www.vinte.studio.com
   * I am delfipolito (https://keybase.io/delfipolito) on keybase.
   * I have a public key ASCdPqW_CaU3j2_FQpfU-tUO86Ux4YNpebhh5T4QnhkcPwo
 
@@ -20,14 +20,14 @@ To do so, I am signing this object:
       "username": "delfipolito"
     },
     "merkle_root": {
-      "ctime": 1532804622,
-      "hash": "7298b138c8332ee2ed31f893f3db3bc31f73593103b6380eee4cd01e840ec6349a8c4786f67eb34088088c68084b9c8448741643f071cef3715925b3e3707832",
-      "hash_meta": "60591c4955e5c5afc1dd2f21a3a6d193a9872e4c7792be226e440e46ee03efa1",
-      "seqno": 3349296
+      "ctime": 1532805012,
+      "hash": "42bfdba2d4e8eea8ab0bc8a0a6bd7f1c314d7245bc306c8c35ab62057f47b2a74036a9da9bfc235098985abdde70bff3f96c7a3e8c21cf7132b4677f674739fe",
+      "hash_meta": "e6807fc653e677f882b25905b73e4bfb5e0a9b6f18e56a1c7ca19efde58e4283",
+      "seqno": 3349305
     },
     "service": {
-      "entropy": "KPV9ffiVCR+hx1Dq95FAHKZA",
-      "hostname": "vinte.studio",
+      "entropy": "RMxjkAqTEclOTMioC4qsX7B/",
+      "hostname": "www.vinte.studio.com",
       "protocol": "http:"
     },
     "type": "web_service_binding",
@@ -37,16 +37,16 @@ To do so, I am signing this object:
     "name": "keybase.io go client",
     "version": "2.3.0"
   },
-  "ctime": 1532804722,
+  "ctime": 1532805026,
   "expire_in": 504576000,
-  "prev": "fc544a95ca1cabe5d83e9d5ccd79cc64d0b457ac88f88cd289fde43a9ec8992c",
-  "seqno": 5,
+  "prev": "e9e655a6cbbaab57bac4419cf0bbbcdd0ca2ae814a0cff36659af57b03ebd808",
+  "seqno": 7,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgnT6lvwmlN49vxUKX1PrVDvOlMeGDaXm4YeU+EJ4ZHD8Kp3BheWxvYWTESpcCBcQg/FRKlcocq+XYPp1czXnMZNC0V6yI+IzSif3kOp7ImSzEIJumaY/7v9/BZ+a0BNJv39UUF+ER/fpmuAVghaj2P1WoAgHCo3NpZ8RAbR/qs00Md6KSs7piFR862rNW03N8Jbffj8kNPAKSt+12hO+Fz/5EzfV0BsI/WjQQq1U5auTgE5hu9QzBV/eGB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBKXGo4zowriul5qZ1g2dbaHpRPvoD0GN1jrIJOL1uG8o3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgnT6lvwmlN49vxUKX1PrVDvOlMeGDaXm4YeU+EJ4ZHD8Kp3BheWxvYWTESpcCB8Qg6eZVpsu6q1e6xEGc8Lu83QyiroFKDP82ZZr1ewPr2AjEIJTTRPcCFuWDefKNadpMc4lfF50Hj7IiUg2vuhSdxZ9IAgHCo3NpZ8RAziMzOP5QftVfi3PiNfB0DEMgDiFUnhRWTsbWRt/3f+dlgpq0qJvg8yXxhcUhgWsiNzvaKBxWlgMUh8ca870WAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIM+dbjBkf6SZ2OB4wROelUCn9D+Vcuqpo2A3h0H1ksv9o3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
