@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/delfipolito
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://vinte.studio
+  * I am delfipolito (https://keybase.io/delfipolito) on keybase.
+  * I have a public key ASCdPqW_CaU3j2_FQpfU-tUO86Ux4YNpebhh5T4QnhkcPwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01209d3ea5bf09a5378f6fc54297d4fad50ef3a531e1836979b861e53e109e191c3f0a",
+      "host": "keybase.io",
+      "kid": "01209d3ea5bf09a5378f6fc54297d4fad50ef3a531e1836979b861e53e109e191c3f0a",
+      "uid": "bb0b5fb7a6c0422115551a3c526a7019",
+      "username": "delfipolito"
+    },
+    "merkle_root": {
+      "ctime": 1532804622,
+      "hash": "7298b138c8332ee2ed31f893f3db3bc31f73593103b6380eee4cd01e840ec6349a8c4786f67eb34088088c68084b9c8448741643f071cef3715925b3e3707832",
+      "hash_meta": "60591c4955e5c5afc1dd2f21a3a6d193a9872e4c7792be226e440e46ee03efa1",
+      "seqno": 3349296
+    },
+    "service": {
+      "entropy": "KPV9ffiVCR+hx1Dq95FAHKZA",
+      "hostname": "vinte.studio",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.3.0"
+  },
+  "ctime": 1532804722,
+  "expire_in": 504576000,
+  "prev": "fc544a95ca1cabe5d83e9d5ccd79cc64d0b457ac88f88cd289fde43a9ec8992c",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgnT6lvwmlN49vxUKX1PrVDvOlMeGDaXm4YeU+EJ4ZHD8Kp3BheWxvYWTESpcCBcQg/FRKlcocq+XYPp1czXnMZNC0V6yI+IzSif3kOp7ImSzEIJumaY/7v9/BZ+a0BNJv39UUF+ER/fpmuAVghaj2P1WoAgHCo3NpZ8RAbR/qs00Md6KSs7piFR862rNW03N8Jbffj8kNPAKSt+12hO+Fz/5EzfV0BsI/WjQQq1U5auTgE5hu9QzBV/eGB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBKXGo4zowriul5qZ1g2dbaHpRPvoD0GN1jrIJOL1uG8o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/delfipolito
+
+==================================================================
