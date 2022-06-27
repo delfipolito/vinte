@@ -128,8 +128,6 @@ $( document ).ready(function(){
   });
 
 
-
-
   $(window).scroll(function() {
     var services = $('.services-scroll').offset().top;
 
